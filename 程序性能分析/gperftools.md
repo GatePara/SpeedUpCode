@@ -31,7 +31,7 @@ sudo apt-get install libtool-bin #ubuntu
 int main(int32_t argc, char *argv[])
 {
 	// Code
-    ProfilerStart("profile_output.prof");
+	ProfilerStart("profile_output.prof");
 	searcher.Search(searchK, result);
 	ProfilerStop();
 	// Code
