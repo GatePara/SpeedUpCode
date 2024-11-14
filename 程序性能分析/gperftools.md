@@ -30,11 +30,11 @@ sudo apt-get install libtool-bin #ubuntu
 #include <gperftools/profiler.h>
 int main(int32_t argc, char *argv[])
 {
-	// Code
-	ProfilerStart("profile_output.prof");
-	searcher.Search(searchK, result);
-	ProfilerStop();
-	// Code
+    // Code
+    ProfilerStart("profile_output.prof");
+    searcher.Search(searchK, result);
+    ProfilerStop();
+    // Code
 }
 ```
 编译的时候也要链接gperftools：
