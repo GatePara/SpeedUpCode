@@ -54,7 +54,6 @@ target_link_libraries(your_program
 ```bash
 export CPUPROFILE=profile_output.prof
 export CPUPROFILE_FREQUENCY=999  #每秒采样999次
-export CPUPROFILE_REALTIME=1
 ```
 2.  文本分析
 ```bash
